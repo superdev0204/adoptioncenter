@@ -1,0 +1,80 @@
+
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+Theme Name: Childcarejob.org
+Theme URI: http://Childcarejob.org
+Author:DMS
+Author URI: http://www.digital.com.np
+*/
+
+
+a.btnsignin, a.btnsignout {
+	
+}
+a.btnsignin:hover, a.btnsignout:hover {
+}
+a.btnsigninon {
+	outline:none;
+}
+#frmsignin, #frmsignin1{
+	display:none;
+	background-color:#f08302;
+	border:1px solid #d87500;
+	position:absolute;
+	top:27px;
+	left:10px;
+	width:215px;
+	padding:12px;
+	*margin-top: 5px;
+	font-size:12px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	z-index:100;
+	line-height:20px;
+}
+
+#frmsignin p, #frmsignin1 p {
+	margin:0;
+	padding:4px 0;
+	overflow:hidden;
+}
+#frmsignin label {
+	font-weight:normal;
+	clear:both;
+	padding:4px 0;
+	overflow:hidden;
+}
+#submitbtn {
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	background-color:#031835;
+	border:1px solid #fff;
+	color:#fff;
+	padding:5px 8px;
+	margin:0 5px 0 0;
+	font-weight:bold;
+}
+#submitbtn:hover, #submitbtn:focus {
+	border:1px solid #000;
+	cursor:pointer;
+}
+.submit {
+	padding-top:5px;
+}
+#msg {
+	color:#ff0a0a;
+}
+#msg img {
+	margin-bottom:-3px;
+}
+#msg p {
+	margin:0;
+	padding:3px 0;
+}
+#msg p:last-child {
+	margin-bottom:0px;
+}
